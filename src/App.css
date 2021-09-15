@@ -1,3 +1,37 @@
 .App {
   text-align: center;
 }
+
+.calculator {
+  width: 80%;
+}
+
+.screen,
+.button-row {
+  height: 16.667%;
+}
+
+.screen {
+  width: 100%;
+}
+
+button.grey,
+.orange {
+  width: 25%;
+  height: 100%;
+  text-align: center;
+}
+
+button.grey {
+  background-color: grey;
+}
+
+button.orange {
+  background-color: orange;
+}
+
+button.grey-large {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}

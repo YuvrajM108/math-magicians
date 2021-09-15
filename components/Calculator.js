@@ -8,31 +8,31 @@ class Calculator extends React.Component {
       <div className='calculator'>
         <div className='screen'>
         </div>
-        <div className='button-row-1'>
+        <div className='button-row'>
           < Button iText='AC' type='grey' />
           < Button iText='+/-' type='grey' />
           < Button iText='%' type='grey' />
           < Button iText='/' type='orange' />
         </div>
-        <div className='button-row-2'>
+        <div className='button-row'>
           < Button iText='7' type='grey' />
           < Button iText='8' type='grey' />
           < Button iText='9' type='grey' />
           < Button iText='X' type='orange' />
         </div>
-        <div className='button-row-3'>
+        <div className='button-row'>
           < Button iText='4' type='grey' />
           < Button iText='5' type='grey' />
           < Button iText='6' type='grey' />
           < Button iText='-' type='orange' />
         </div>
-        <div className='button-row-4'>
+        <div className='button-row'>
           < Button iText='1' type='grey' />
           < Button iText='2' type='grey' />
           < Button iText='3' type='grey' />
           < Button iText='+' type='orange' />
         </div>
-        <div className='button-row-5'>
+        <div className='button-row'>
           < Button iText='0' type='grey-large' />
           < Button iText='.' type='grey' />
           < Button iText='=' type='orange' />
