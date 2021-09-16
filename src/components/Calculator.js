@@ -1,3 +1,6 @@
+import React from 'react';
+import Button from './Button';
+
 class Calculator extends React.Component {
   constructor(props) {
     super(props);
@@ -42,16 +45,4 @@ class Calculator extends React.Component {
   }
 }
 
-class Button extends React.Component {
-  constructor(props) {
-    super(props);
-    this.iText = props.iText;
-    this.type = props.type;
-  }
-
-  render() {
-    return (
-      <button className={this.type}>{this.iText}</button>
-    );
-  }
-}
+export default Calculator;
