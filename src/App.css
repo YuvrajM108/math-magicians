@@ -28,7 +28,7 @@ button.grey,
 }
 
 button.grey {
-  background-color: grey;
+  background-color: lightgray;
 }
 
 button.orange {
@@ -36,7 +36,7 @@ button.orange {
 }
 
 button.grey-large {
-  background-color: grey;
+  background-color: lightgray;
   width: 50%;
   height: 100%;
   text-align: center;
@@ -47,4 +47,3 @@ h2.output {
   margin-bottom: 0;
   margin-right: 5px;
 }
-
