@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .calculator {
@@ -12,6 +15,7 @@
 }
 
 .screen {
+  background-color: #858694;
   text-align: end;
   width: 100%;
 }
@@ -37,3 +41,10 @@ button.grey-large {
   height: 100%;
   text-align: center;
 }
+
+h2.output {
+  color: white;
+  margin-bottom: 0;
+  margin-right: 5px;
+}
+

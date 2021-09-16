@@ -7,7 +7,7 @@ class Calculator extends React.Component {
     return (
       <div className="calculator">
         <div className="screen">
-          <h1>0</h1>
+          <h2 className="output">0</h2>
         </div>
         <div className="button-row">
           <Button iText="AC" class="grey" />
