@@ -32,6 +32,7 @@ button.orange {
 }
 
 button.grey-large {
+  background-color: grey;
   width: 50%;
   height: 100%;
   text-align: center;

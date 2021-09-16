@@ -10,33 +10,33 @@ class Calculator extends React.Component {
           <h1>0</h1>
         </div>
         <div className="button-row">
-          <Button iText="AC" type="grey" />
-          <Button iText="+/-" type="grey" />
-          <Button iText="%" type="grey" />
-          <Button iText="÷" type="orange" />
+          <Button iText="AC" class="grey" />
+          <Button iText="+/-" class="grey" />
+          <Button iText="%" class="grey" />
+          <Button iText="÷" class="orange" />
         </div>
         <div className="button-row">
-          <Button iText="7" type="grey" />
-          <Button iText="8" type="grey" />
-          <Button iText="9" type="grey" />
-          <Button iText="X" type="orange" />
+          <Button iText="7" class="grey" />
+          <Button iText="8" class="grey" />
+          <Button iText="9" class="grey" />
+          <Button iText="X" class="orange" />
         </div>
         <div className="button-row">
-          <Button iText="4" type="grey" />
-          <Button iText="5" type="grey" />
-          <Button iText="6" type="grey" />
-          <Button iText="-" type="orange" />
+          <Button iText="4" class="grey" />
+          <Button iText="5" class="grey" />
+          <Button iText="6" class="grey" />
+          <Button iText="-" class="orange" />
         </div>
         <div className="button-row">
-          <Button iText="1" type="grey" />
-          <Button iText="2" type="grey" />
-          <Button iText="3" type="grey" />
-          <Button iText="+" type="orange" />
+          <Button iText="1" class="grey" />
+          <Button iText="2" class="grey" />
+          <Button iText="3" class="grey" />
+          <Button iText="+" class="orange" />
         </div>
         <div className="button-row">
-          <Button iText="0" type="grey-large" />
-          <Button iText="." type="grey" />
-          <Button iText="=" type="orange" />
+          <Button iText="0" class="grey-large" />
+          <Button iText="." class="grey" />
+          <Button iText="=" class="orange" />
         </div>
       </div>
     );
