@@ -19,7 +19,7 @@ class Calculator extends React.Component {
           <Button iText="7" class="grey" />
           <Button iText="8" class="grey" />
           <Button iText="9" class="grey" />
-          <Button iText="X" class="orange" />
+          <Button iText="×" class="orange" />
         </div>
         <div className="button-row">
           <Button iText="4" class="grey" />
