@@ -13,7 +13,7 @@ class Button extends React.Component {
 
   render() {
     return (
-      <button className={this.class} onClick={calculate(this.parentAttr, this.id)} type="button">{this.iText}</button>
+      <button className={this.class} onClick={() => calculate(this.parentAttr, this.id)} type="button">{this.iText}</button>
     );
   }
 }
@@ -22,7 +22,7 @@ Button.propTypes = {
   iText: PropTypes.string.isRequired,
   class: PropTypes.string.isRequired,
   id: PropTypes.string.isRequired,
-  parentAttr: PropTypes.elementType.isRequired,
+  parentAttr: PropTypes.objectOf(PropTypes.object).isRequired,
 };
 
 export default Button;

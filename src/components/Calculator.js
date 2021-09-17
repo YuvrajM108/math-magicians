@@ -28,33 +28,33 @@ class Calculator extends React.Component {
           <h2 className="output">{this.isTotalNull()}</h2>
         </div>
         <div className="button-row">
-          <Button iText="AC" class="grey" id="AC" parentAttr={this.attributes} />
-          <Button iText="+/-" class="grey" id="+/-" parentAttr={this.attributes} />
-          <Button iText="%" class="grey" id="%" parentAttr={this.attributes} />
-          <Button iText="÷" class="orange" id="÷" parentAttr={this.attributes} />
+          <Button iText="AC" class="grey" id="AC" parentAttr={this.state.attributes} />
+          <Button iText="+/-" class="grey" id="+/-" parentAttr={this.state.attributes} />
+          <Button iText="%" class="grey" id="%" parentAttr={this.state.attributes} />
+          <Button iText="÷" class="orange" id="÷" parentAttr={this.state.attributes} />
         </div>
         <div className="button-row">
-          <Button iText="7" class="grey" id="7" parentAttr={this.attributes} />
-          <Button iText="8" class="grey" id="8" parentAttr={this.attributes} />
-          <Button iText="9" class="grey" id="9" parentAttr={this.attributes} />
-          <Button iText="×" class="orange" id="x" parentAttr={this.attributes} />
+          <Button iText="7" class="grey" id="7" parentAttr={this.state.attributes} />
+          <Button iText="8" class="grey" id="8" parentAttr={this.state.attributes} />
+          <Button iText="9" class="grey" id="9" parentAttr={this.state.attributes} />
+          <Button iText="×" class="orange" id="x" parentAttr={this.state.attributes} />
         </div>
         <div className="button-row">
-          <Button iText="4" class="grey" id="4" parentAttr={this.attributes} />
-          <Button iText="5" class="grey" id="5" parentAttr={this.attributes} />
-          <Button iText="6" class="grey" id="6" parentAttr={this.attributes} />
-          <Button iText="-" class="orange" id="-" parentAttr={this.attributes} />
+          <Button iText="4" class="grey" id="4" parentAttr={this.state.attributes} />
+          <Button iText="5" class="grey" id="5" parentAttr={this.state.attributes} />
+          <Button iText="6" class="grey" id="6" parentAttr={this.state.attributes} />
+          <Button iText="-" class="orange" id="-" parentAttr={this.state.attributes} />
         </div>
         <div className="button-row">
-          <Button iText="1" class="grey" id="1" parentAttr={this.attributes} />
-          <Button iText="2" class="grey" id="2" parentAttr={this.attributes} />
-          <Button iText="3" class="grey" id="3" parentAttr={this.attributes} />
-          <Button iText="+" class="orange" id="+" parentAttr={this.attributes} />
+          <Button iText="1" class="grey" id="1" parentAttr={this.state.attributes} />
+          <Button iText="2" class="grey" id="2" parentAttr={this.state.attributes} />
+          <Button iText="3" class="grey" id="3" parentAttr={this.state.attributes} />
+          <Button iText="+" class="orange" id="+" parentAttr={this.state.attributes} />
         </div>
         <div className="button-row">
-          <Button iText="0" class="grey-large" id="0" parentAttr={this.attributes} />
-          <Button iText="." class="grey" id="." parentAttr={this.attributes} />
-          <Button iText="=" class="orange" id="=" parentAttr={this.attributes} />
+          <Button iText="0" class="grey-large" id="0" parentAttr={this.state.attributes} />
+          <Button iText="." class="grey" id="." parentAttr={this.state.attributes} />
+          <Button iText="=" class="orange" id="=" parentAttr={this.state.attributes} />
         </div>
       </div>
     );
