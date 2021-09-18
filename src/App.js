@@ -6,7 +6,7 @@ const initAttrObj = {
   total: null,
   next: null,
   operation: null,
-}
+};
 
 // eslint-disable-next-line react/prefer-stateless-function
 const App = () => (
@@ -15,7 +15,5 @@ const App = () => (
     <Calculator initialAttributes={initAttrObj} />
   </div>
 );
-
-
 
 export default App;
