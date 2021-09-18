@@ -4,6 +4,8 @@
 
 > In this project I use React and JSX to design a single-page application that allows users to use a calculator and to read quotes about mathematics.
 
+![screenshot](./images/screenshot.PNG)
+
 ## Built With
 
 - React
