@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 import Button from './Button';
 
-// eslint-disable-next-line react/prefer-stateless-function
 const Calculator = ({ initialAttributes }) => {
   const [attributes, setAttributes] = useState(initialAttributes);
 

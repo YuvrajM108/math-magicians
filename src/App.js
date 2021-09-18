@@ -8,7 +8,6 @@ const initAttrObj = {
   operation: null,
 };
 
-// eslint-disable-next-line react/prefer-stateless-function
 const App = () => (
   <div className="App">
     <h1>Math Magicians</h1>
