@@ -5,16 +5,6 @@ import Button from './Button';
 
 // eslint-disable-next-line react/prefer-stateless-function
 const Calculator = ({ initialAttributes }) => {
-  // constructor(props) {
-  //   super(props);
-  //   this.handleClick = this.handleClick.bind(this);
-  //   this.state = {
-  //     total: null,
-  //     next: null,
-  //     operation: null,
-  //   };
-  // }
-
   const [attributes, setAttributes] = useState(initialAttributes);
 
   const handleClick = (name) => {
