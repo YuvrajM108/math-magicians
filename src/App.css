@@ -58,3 +58,23 @@ h2.output {
   margin-right: 5px;
   font-size: 32px;
 }
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-info,
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1.website-title {
+  font-size: 32px;
+}
+
+h1.page-info {
+  font-size: 24px;
+}
