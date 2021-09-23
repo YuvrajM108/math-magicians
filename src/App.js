@@ -10,12 +10,6 @@ import Home from './components/Home';
 import Quote from './components/Quote';
 import './App.css';
 
-// const initAttrObj = {
-//   total: null,
-//   next: null,
-//   operation: null,
-// };
-
 function App() {
   return (
     <div className="App">
