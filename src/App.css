@@ -62,6 +62,9 @@ h2.output {
 .topbar {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+  max-width: 95%;
 }
 
 .page-info,
@@ -72,9 +75,31 @@ h2.output {
 }
 
 h1.website-title {
-  font-size: 32px;
+  font-size: 48px;
 }
 
 h1.page-info {
   font-size: 24px;
+}
+
+p.welcome-info {
+  text-align: center;
+  font-size: 20px;
+}
+
+nav.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+a.navlink {
+  font-size: 20px;
+  color: blue;
+  margin: 0 10px 0 10px;
+}
+
+a.navlink:hover {
+  color: black;
+  text-decoration: none;
 }

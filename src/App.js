@@ -1,7 +1,7 @@
 import React from 'react';
 import {
   BrowserRouter as Router,
-  Routes,
+  Switch,
   Route,
   Link,
 } from 'react-router-dom';
@@ -19,21 +19,29 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <div className="topbar">
-        <h1 className="website-title">Math Magicians</h1>
-        <Router>
-          <nav>
-            <Link to="/">Home</Link>
-            <Link to="/quote">Quote</Link>
-            <Link to="/calculator">Calculator</Link>
-            <Routes>
-              <Route exact path="/" component={Home} />
-              <Route path="/quote" component={Quote} />
-              <Route path="/calculator" component={Calculator} />
-            </Routes>
+      <Router>
+        <div className="topbar">
+          <h1 className="website-title">Math Magicians</h1>
+          <nav className="navbar">
+            <Link to="/" className="navlink">Home</Link>
+            <p>|</p>
+            <Link to="/quote" className="navlink">Quote</Link>
+            <p>|</p>
+            <Link to="/calculator" className="navlink">Calculator</Link>
           </nav>
-        </Router>
-      </div>
+        </div>
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/quote">
+            <Quote />
+          </Route>
+          <Route path="/calculator">
+            <Calculator />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
