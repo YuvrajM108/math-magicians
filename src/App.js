@@ -19,9 +19,9 @@ function App() {
           <nav className="navbar">
             <Link to="/" className="navlink">Home</Link>
             <p>|</p>
-            <Link to="/quote" className="navlink">Quote</Link>
-            <p>|</p>
             <Link to="/calculator" className="navlink">Calculator</Link>
+            <p>|</p>
+            <Link to="/quote" className="navlink">Quote</Link>
           </nav>
         </div>
         <Switch>
