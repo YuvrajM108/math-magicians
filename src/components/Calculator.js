@@ -1,4 +1,3 @@
-// import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 import Button from './Button';
@@ -59,9 +58,5 @@ const Calculator = () => {
     </div>
   );
 };
-
-// Calculator.propTypes = {
-//   initialAttributes: PropTypes.oneOfType([PropTypes.object]).isRequired,
-// };
 
 export default Calculator;
