@@ -1,4 +1,4 @@
-const Quote = () => {
+function Quote() {
   const quotes = [
     '"But in my opinion, all things in nature occur mathematically." - Rene Decartes',
     '"Do not worry about your difficulties in mathematics. I can assure you mine are still greater." - Albert Einstein',
@@ -17,6 +17,6 @@ const Quote = () => {
       <h2>{getQuote}</h2>
     </div>
   );
-};
+}
 
 export default Quote;
