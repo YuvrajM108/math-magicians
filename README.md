@@ -19,6 +19,8 @@
 
 To view a live demo on Heroku, click [here](https://math-magicians-yuvrajm108.herokuapp.com/).
 
+To view a live demo on Netlify, click [here](https://hungry-mcnulty-b1cbdd.netlify.app/).
+
 ## Getting Started
 
 ### Prerequisites
