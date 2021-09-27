@@ -15,6 +15,10 @@
 - HTML
 - CSS
 
+## Live Demo
+
+To view a live demo on Heroku, click [here](https://math-magicians-yuvrajm108.herokuapp.com/).
+
 ## Getting Started
 
 ### Prerequisites
