@@ -58,3 +58,48 @@ h2.output {
   margin-right: 5px;
   font-size: 32px;
 }
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+  max-width: 95%;
+}
+
+.page-info,
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1.website-title {
+  font-size: 48px;
+}
+
+h1.page-info {
+  font-size: 24px;
+}
+
+p.welcome-info {
+  text-align: center;
+  font-size: 20px;
+}
+
+nav.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+a.navlink {
+  font-size: 20px;
+  color: blue;
+  margin: 0 10px 0 10px;
+}
+
+a.navlink:hover {
+  color: black;
+  text-decoration: none;
+}
